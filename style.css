@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    scroll-behavior: fixed;
+    background-color: rgb(53, 11, 54);
+}
+header{
+    padding: 13px;
+    width: 100%;
+}
+
+ul{
+    list-style: none;
+}
+
+#nav-bar{ 
+    margin-top: 20px;
+    text-align: center;
+}
+
+#nav-bar li{
+    display: inline-block;
+    padding: 8px;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+header nav #nav-bar li {
+    display : inline;
+}
+
+#nav-bar #gmail{
+    background: #fff;
+    color: rgb(214, 50, 50);
+    margin-right: 25px;
+    padding: 7px 15px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+
+#nav-bar #linkedin{
+    background: #f2f2f2;
+    color: black;
+    margin-right: 25px;
+    padding: 7px 15px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+#nav-bar #facebook{
+    background:#f2f2f2;
+    color:rgb(53, 100, 253);
+    margin-right: 25px;
+    padding: 7px 15px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+#nav-bar #instagram{
+    background: #f2f2f2;
+    color: rgba(231, 10, 213, 0.651);
+    margin-right: 25px;
+    padding: 7px 15px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+li.nav-link a:hover{
+    text-decoration: underline;
+}
+
+#sign-in:hover{
+    box-shadow: 1px 1px 5px #999;
+}
+
+#sign-in{
+    color: #fff;
+}
+
+/* .mitra #mitra-logo{
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    clear: both;
+    padding-top: 112px;
+    padding-bottom: 25px;
+} */
+
+.form{
+    padding-top: 185px;
+    padding-bottom: 12px;
+    text-align: center;
+}
+
+#txtsearch{
+    width: 450px;
+    line-height: 32px;
+    padding: 20px 10px;
+}
+
+.form #txtsearch{
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-size: 1.1rem;
+}
+
+#txtsearch:hover{
+    border-color: #ce3d3d;
+} 
+
+.button{
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 250px;
+}
+
+#btn{
+    color: black;
+    background-color: white;
+    padding: 7.5px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+#btn:hover{
+    background-color: rgb(90, 243, 248);
+}
+
+#mitra-search{
+    padding: 3px;
+}
+
+ footer{ 
+    position: fixed;
+    bottom: 0;
+    padding-bottom: 13px;
+    width: 100%;
+}
+
+footer ul li{
+    display: inline;
+
+}
+
+.footer-left{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#news{
+    background: #fff;
+    color: rgb(24, 3, 100);
+    margin-right: 25px;
+    padding: 7px 15px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+#youtube{
+    background: #fff;
+    color: rgb(214, 50, 50);
+    margin-right: 25px;
+    padding: 7px 15px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+#nav-bar #gmail:hover, #nav-bar #linkedin:hover, #nav-bar #facebook:hover, #nav-bar #instagram:hover,
+#news:hover, #youtube:hover{
+    background-color: rgb(243, 253, 98);
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 500px) {
+    #txtsearch {
+        width: 300px;
+    }
+
+    #nav-bar #gmail {
+        margin-right: 7px;
+        padding: 5px 7px;
+    }
+
+    #nav-bar #linkedin {
+        margin-right: 7px;
+        padding: 5px 7px;
+    }
+
+    #nav-bar #facebook {
+        margin-right: 7px;
+        padding: 5px 7px;
+    }
+
+    #nav-bar #instagram {
+        margin-right: 7px;
+        padding: 5px 7px;
+    }
+
+    #news {
+        margin-right: 12px;
+        padding: 5px 7px;
+    }
+
+    #youtube {
+        margin-right: 12px;
+        padding: 5px 7px;
+    }
+}

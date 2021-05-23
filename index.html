@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul id="nav-bar">
+                <li id="gmail"> <a href="https://gmail.com">Gmail</a> </li>
+                <li id="linkedin"> <a href="https://linkedin.com">Linked in</a> </li>
+                <li id="facebook"> <a href="https://facebook.com">facebook</a> </li>
+                <li id="instagram"> <a href="https://instagram.com">instagram</a> </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- <div class="mitra">
+        <a href="#" id="mitra-logo">
+            <img src="https://images.app.goo.gl/1cvV5Kj4PhgBtyYGA" alt="m">
+        </a>
+    </div> -->
+
+    <div class="form">
+        <form id="frmsearch" method="get">
+        <input type="text" id="txtsearch" placeholder="Search...">
+    </div>
+
+    <div class="button">
+        <input id="btn"type="submit" value="Search" id="mitra-search">
+    </div>
+        </form>
+    <footer>
+        <ul class="footer-left">
+            <li id="news"> <a href="https://news.com">NEWS</a> </li>
+            <li id="youtube"> <a href="https://youtube.com">You Tube</a></li>
+        </ul>
+    </footer>
+
+    <script type="text/javascript">
+    document.getElementById('frmsearch').onsubmit = function() {
+    window.location = 'http://www.google.com/search?q=' + document.getElementById('txtsearch').value;
+    return false;
+    }
+    </script>
+</body>
+</html>
